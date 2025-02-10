@@ -229,7 +229,26 @@ main {
     }
   }
   
+ .view-6{
+   width: 100%;
 
+
+   p{
+    text-align: center;
+    padding: 2rem 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+   }
+
+   h2{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 200;
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 2rem;
+   }
+ }
 @media (min-width: 1020px) {
   html {
     font-size: clamp(16px, 1vw, 20px);
@@ -272,7 +291,7 @@ main {
       }
     }
   }
-d  .view-4{
+  .view-4{
     .heading{
         flex-direction: row;
         justify-content: space-between;

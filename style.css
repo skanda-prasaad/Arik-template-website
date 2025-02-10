@@ -211,6 +211,24 @@ main {
   font-weight: 500;
 }
 
+.view-6 {
+  width: 100%;
+}
+.view-6 p {
+  text-align: center;
+  padding: 2rem 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+.view-6 h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 200;
+  width: 100%;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
 @media (min-width: 1020px) {
   html {
     font-size: clamp(16px, 1vw, 20px);
@@ -247,11 +265,11 @@ main {
   .view-3 .boxes .box .about {
     padding-bottom: 2rem;
   }
-  d .view-4 .heading {
+  .view-4 .heading {
     flex-direction: row;
     justify-content: space-between;
   }
-  d .view-4 .images {
+  .view-4 .images {
     grid-template-columns: repeat(2, 1fr);
     padding: 0 2rem;
     gap: 2rem;
